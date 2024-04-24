@@ -3,8 +3,16 @@ package stepDefinition;
 import browserConfig.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import static browserConfig.Driver.driver;
 
 public class Hooks {
+    private static Logger log = LogManager.getLogger(Hooks.class);
 
     private final static String chromeBrowser = "Chrome";
     private final static String firefoxBrowser = "Firefox";
@@ -12,32 +20,17 @@ public class Hooks {
     @Before
     public void setupDriver(){
         Driver.setupDriver(chromeBrowser);
+        log.info("Chrome browser instantiated!!!");
     }
-
 
     @After
-    public void quitDriver(){
-        Driver.quitDriver();
+    public static void tearDown(Scenario scenario) {
+        if(scenario.isFailed()) {
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", scenario.getName());
+            log.info("Scenario: " + scenario + " has failed and screenshots are taken!");
+        }
+        log.info("Driver is quiting...");
+        driver.quit();
     }
-
-
-
-
-   // @Before
-   // public static void setUp() {
-//
-   //     HelperClass.setUpDriver();
-   // }
-//
-   // @After
-   // public static void tearDown(Scenario scenario) {
-//
-   //     //validate if scenario has failed
-   //     if(scenario.isFailed()) {
-   //         final byte[] screenshot = ((TakesScreenshot) HelperClass.getDriver()).getScreenshotAs(OutputType.BYTES);
-   //         scenario.attach(screenshot, "image/png", scenario.getName());
-   //     }
-//
-   //     HelperClass.tearDown();
-   // }
 }

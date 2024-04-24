@@ -8,7 +8,7 @@ import java.util.List;
 
 import static browserConfig.Driver.driver;
 
-public abstract class BasePage {
+public abstract class  BasePage {
     public BasePage(){
         PageFactory.initElements(driver,this);
     }
