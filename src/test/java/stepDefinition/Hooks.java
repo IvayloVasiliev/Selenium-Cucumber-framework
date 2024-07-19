@@ -4,8 +4,7 @@ import browserConfig.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -28,7 +27,7 @@ public class Hooks {
         if(scenario.isFailed()) {
             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", scenario.getName());
-            log.info("Scenario: " + scenario + " has failed and screenshots are taken!");
+            log.info("Scenario: " + scenario.getName() + " has failed and screenshots are taken!");
         }
         log.info("Driver is quiting...");
         driver.quit();
