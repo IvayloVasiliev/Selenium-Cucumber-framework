@@ -12,7 +12,7 @@ Feature: Positions in Careers page
     Then I verify position "<position>" is ready to submit application
 
     Examples:
-      | position                              | responsibilities                                                                                      |
+      | position                              | responsibilities                                                                                |
       | Automation Quality Assurance Engineer | Automate JavaScript (React) based web application testing using Selenium;                       |
       | Junior QA Engineer                    | At least 1 year of experience with Software Quality Assurance principles and procedures;        |
       | Python Developer                      | 3+ years of experience in programming in Python;                                                |

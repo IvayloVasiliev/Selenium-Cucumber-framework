@@ -33,4 +33,8 @@ public class Common {
         helper.switchTab();
     }
 
+    @And("I upload a {string} file")
+    public void iUploadAFile(String fileName) {
+        chatBotPage.fileUpload(fileName);
+    }
 }

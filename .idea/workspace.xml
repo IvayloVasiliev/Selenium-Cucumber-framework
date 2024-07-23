@@ -5,40 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5b9e506-c831-4983-953c-41db40d53a08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-20240716.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-20240717.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-20240718.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application-20240719.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/CareersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/ChatBotPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/ChatBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotInavlidMailInput.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/PositionsInCareersPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/browserConfig/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browserConfig/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mus/CareersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mus/CompanyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mus/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/musStepDefinition/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/TestCaseFourStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/musStepDefinition/TestCaseFourStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/TestCaseOneStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/musStepDefinition/TestCaseOneStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/TestCaseThreeStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/musStepDefinition/TestCaseThreeStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/TestCaseTwoStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/musStepDefinition/TestCaseTwoStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCaseFour.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mus_Tests/TestCaseFour.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCaseOne.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mus_Tests/TestCaseOne.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCaseThree.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mus_Tests/TestCaseThree.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCaseTwo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mus_Tests/TestCaseTwo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/BrowserHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/BrowserHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/mus/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mus/CareersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/stryp/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/CareersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/stryp/ChatBotPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/ChatBotPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/stryp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/ChatBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/ChatBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/DisabledChatMessageField.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/DisabledChatMessageField.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/PositionsInCareersPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/PositionsInCareersPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +64,14 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Cucumber Java.Feature: TestCaseFour.executor": "Run",
     "Cucumber Java.Feature: TestCaseOne.executor": "Run",
+    "Cucumber Java.Feature: UploadDocumentToChatBot.executor": "Run",
+    "Cucumber Java.Scenario: ChatBot document upload.executor": "Run",
     "Cucumber Java.Scenario: Check if position is present in Careers page.executor": "Run",
-    "Cucumber Java.Scenario: Checking ChatBot invalid mail address answer.executor": "Debug",
+    "Cucumber Java.Scenario: Checking ChatBot function buttons and messaging.executor": "Run",
+    "Cucumber Java.Scenario: Checking ChatBot invalid mail address answer.executor": "Run",
+    "Cucumber Java.Scenario: Checking ChatBot message field is disabled.executor": "Run",
     "Cucumber Java.Scenario: Checking ChatBot recruitment button function (1).executor": "Debug",
+    "Cucumber Java.Scenario: Checking ChatBot recruitment button function (2).executor": "Debug",
     "Cucumber Java.Scenario: Checking ChatBot recruitment button function.executor": "Run",
     "Cucumber Java.Scenario: Checking ChatBot recruitment function.executor": "Run",
     "Cucumber Java.Scenario: Get job positions and print them on the console.executor": "Debug",
@@ -125,7 +108,27 @@
       <command value="mvn  -v" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Check if position is present in Careers page">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Checking ChatBot invalid mail address answer">
+    <configuration name="Scenario: ChatBot document upload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MusTests" />
+      <option name="NAME_FILTER" value="^ChatBot document upload$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^ChatBot document upload$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: ChatBot document upload" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Check if position is present in Careers page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/PositionsInCareersPage.feature" />
@@ -135,6 +138,26 @@
       <option name="NAME_FILTER" value="^Check if position is present in Careers page$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check if position is present in Careers page$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Check if position is present in Careers page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Checking ChatBot function buttons and messaging" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MusTests" />
+      <option name="NAME_FILTER" value="^Checking ChatBot function buttons and messaging$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ChatBot function buttons and messaging$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Checking ChatBot function buttons and messaging" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -166,55 +189,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Checking ChatBot recruitment button function (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Checking ChatBot message field is disabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotInavlidMailInput.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/DisabledChatMessageField.feature" />
       <option name="GLUE" value="stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MusTests" />
-      <option name="NAME_FILTER" value="^Checking ChatBot recruitment button function$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ChatBot recruitment button function$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Checking ChatBot recruitment button function" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Checking ChatBot recruitment button function" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" />
-      <option name="GLUE" value="stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MusTests" />
-      <option name="NAME_FILTER" value="^Checking ChatBot recruitment button function$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ChatBot recruitment button function$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Checking ChatBot recruitment button function" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify that Company URL and Facebook URl loads correctly" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Mus_Tests/TestCaseTwo.feature" />
-      <option name="GLUE" value="stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MusTests" />
-      <option name="NAME_FILTER" value="^Verify that Company URL and Facebook URl loads correctly$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that Company URL and Facebook URl loads correctly$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify that Company URL and Facebook URl loads correctly" />
+      <option name="NAME_FILTER" value="^Checking ChatBot message field is disabled$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ChatBot message field is disabled$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Checking ChatBot message field is disabled" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -228,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Check if position is present in Careers page" />
-        <item itemvalue="Cucumber Java.Scenario: Checking ChatBot recruitment button function" />
         <item itemvalue="Cucumber Java.Scenario: Checking ChatBot invalid mail address answer" />
-        <item itemvalue="Cucumber Java.Scenario: Checking ChatBot recruitment button function (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Verify that Company URL and Facebook URl loads correctly" />
+        <item itemvalue="Cucumber Java.Scenario: Checking ChatBot message field is disabled" />
+        <item itemvalue="Cucumber Java.Scenario: Check if position is present in Careers page" />
+        <item itemvalue="Cucumber Java.Scenario: Checking ChatBot function buttons and messaging" />
+        <item itemvalue="Cucumber Java.Scenario: ChatBot document upload" />
       </list>
     </recent_temporary>
   </component>

@@ -12,6 +12,7 @@ import static browserConfig.Driver.wait;
 
 public class CareersPage extends BasePage {
 
+    BrowserHelpers helper = new BrowserHelpers();
 
     public void assertThatPageIsOpen(String pageName) {
         String urlAsString = driver.getCurrentUrl();
@@ -22,11 +23,13 @@ public class CareersPage extends BasePage {
     public void assertRequirmentExistInPage(String requirment) {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[contains(text(),'" + requirment + "')]")));
         WebElement actualErrorMessage = driver.findElement(By.xpath("//*[contains(text(),'" + requirment + "')]"));
+        helper.highlightElement(actualErrorMessage);
         Assert.assertEquals(requirment, actualErrorMessage.getText());
     }
 
     public void assertPositionIsAplicable(String position) {
         WebElement actualErrorMessage = driver.findElement(By.xpath("//h2"));
+        helper.highlightElement(actualErrorMessage);
         Assert.assertEquals(position, actualErrorMessage.getText());
     }
 }

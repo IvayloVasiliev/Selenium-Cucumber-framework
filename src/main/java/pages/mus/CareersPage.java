@@ -57,7 +57,7 @@ public class CareersPage extends BasePage {
     }
 
     public void fileUpload() {
-        String filePath = "C:\\Users\\ivail\\IdeaProjects\\MusTests\\src\\test\\resources\\uploadFiles\\TestCV.docx";
+        String filePath = "src\\test\\resources\\uploadFiles\\TestCV.docx";
         driver.findElement(By.id("cf-4")).sendKeys(filePath);
     }
 
