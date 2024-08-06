@@ -1,3 +1,4 @@
+@ExampleTaggedScenario
 Feature: Upload document to ChatBot
 
   Scenario: ChatBot document upload

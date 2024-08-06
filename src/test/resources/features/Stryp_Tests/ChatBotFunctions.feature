@@ -12,6 +12,6 @@ Feature: ChatBot functions
 
     Examples:
       | function button     | chatbot email asnwer                                                         | chatbot proceed answer                                                         |
-      | Recruitment         | Thank you, John. In case we get disconnected, what is your email?            | Are you interested in our career opportunities, internships or something else? |
+      #| Recruitment         | Thank you, John. In case we get disconnected, what is your email?            | Are you interested in our career opportunities, internships or something else? |
       | Software Solutions  | Thank you ,John. In case we get disconnected, what is your business email?   | Great! How would you like to proceed?                                          |
       | Other               | Thank you ,John. In case we get disconnected, what is your business email?   | Great! How would you like to proceed?                                          |

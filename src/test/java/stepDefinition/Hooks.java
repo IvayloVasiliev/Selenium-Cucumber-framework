@@ -22,6 +22,11 @@ public class Hooks {
         log.info("Chrome browser instantiated!!!");
     }
 
+    @Before("@ExampleTaggedScenario")
+    public void beforeCallingTaggedScenario() {
+        log.info("*********** About to start the tagged scenario 'ExampleTaggedScenario'.");
+    }
+
     @After
     public static void tearDown(Scenario scenario) {
         if(scenario.isFailed()) {

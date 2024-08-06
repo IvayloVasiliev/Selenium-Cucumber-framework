@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5b9e506-c831-4983-953c-41db40d53a08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/application-20240723.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application-20240803.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helper/SAndBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/BrowserHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/BrowserHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/mus/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mus/CareersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/stryp/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/CareersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/stryp/ChatBotPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/ChatBotPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/stryp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/stryp/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/ChatBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/ChatBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/strypStepDefinition/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/DisabledChatMessageField.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/DisabledChatMessageField.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/PositionsInCareersPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/PositionsInCareersPage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,12 +57,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.SAndBox.executor": "Run",
     "Cucumber Java.Feature: TestCaseFour.executor": "Run",
     "Cucumber Java.Feature: TestCaseOne.executor": "Run",
-    "Cucumber Java.Feature: UploadDocumentToChatBot.executor": "Run",
+    "Cucumber Java.Feature: UploadDocumentToChatBot.executor": "Debug",
     "Cucumber Java.Scenario: ChatBot document upload.executor": "Run",
     "Cucumber Java.Scenario: Check if position is present in Careers page.executor": "Run",
-    "Cucumber Java.Scenario: Checking ChatBot function buttons and messaging.executor": "Run",
+    "Cucumber Java.Scenario: Checking ChatBot function buttons and messaging.executor": "Debug",
     "Cucumber Java.Scenario: Checking ChatBot invalid mail address answer.executor": "Run",
     "Cucumber Java.Scenario: Checking ChatBot message field is disabled.executor": "Run",
     "Cucumber Java.Scenario: Checking ChatBot recruitment button function (1).executor": "Debug",
@@ -109,6 +105,38 @@
     </option>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Checking ChatBot invalid mail address answer">
+    <configuration name="SAndBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helper.SAndBox" />
+      <module name="MusTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: UploadDocumentToChatBot" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MusTests" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: UploadDocumentToChatBot" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: ChatBot document upload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/UploadDocumentToChatBot.feature" />
@@ -149,26 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Checking ChatBot function buttons and messaging" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotFunctions.feature" />
-      <option name="GLUE" value="stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MusTests" />
-      <option name="NAME_FILTER" value="^Checking ChatBot function buttons and messaging$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ChatBot function buttons and messaging$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Checking ChatBot function buttons and messaging" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Checking ChatBot invalid mail address answer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/ChatBotInavlidMailInput.feature" />
@@ -189,33 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Checking ChatBot message field is disabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Stryp_Tests/DisabledChatMessageField.feature" />
-      <option name="GLUE" value="stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MusTests" />
-      <option name="NAME_FILTER" value="^Checking ChatBot message field is disabled$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ChatBot message field is disabled$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Checking ChatBot message field is disabled" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Checking ChatBot invalid mail address answer" />
-        <item itemvalue="Cucumber Java.Scenario: Checking ChatBot message field is disabled" />
-        <item itemvalue="Cucumber Java.Scenario: Check if position is present in Careers page" />
-        <item itemvalue="Cucumber Java.Scenario: Checking ChatBot function buttons and messaging" />
+        <item itemvalue="Application.SAndBox" />
         <item itemvalue="Cucumber Java.Scenario: ChatBot document upload" />
+        <item itemvalue="Cucumber Java.Feature: UploadDocumentToChatBot" />
+        <item itemvalue="Cucumber Java.Scenario: Check if position is present in Careers page" />
       </list>
     </recent_temporary>
   </component>
